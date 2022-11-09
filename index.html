@@ -13,7 +13,38 @@
 
 <body>
   <!-- Seu código aqui -->
-  
+  <header>
+    <h1>Trybe Hotel</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q0v72AJA-p9V_oPst_65uEG9dr1WxKN-ZYp_5gE&s" alt="">
+  </header>
+  <section class="hotel-form">
+    <label for="checkin">Check-in</label>
+    <input type="date" class="inputCheckin" id="checkin">
+    <label for="checkout">Check-out</label>
+    <input type="date" class="inputCheckout" name="checkout">
+  </section>
+  <section class="hotel-form">
+    <p>Acomodação</p>
+    <input type="radio" class="bedroom" name="quartos" value="comum"> 
+    <label for="bedroom">Comum</label>
+    <input type="radio" class="bedroom" name="quartos" value="club">
+    <label for="bedroom">Club</label>
+    <input type="radio" class="bedroom" name="quartos" value="luxo">
+    <label for="bedroom">Luxo</label>
+  </section>
+  <section class="hotel-form">
+    <label for="nPessoas">quantidade de pessoas</label>
+    <select name="" id="" class="nPessoas">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <section class="hotel-form">
+      <textarea name="" id="" cols="30" rows="10" placeholder="campo de observações" class="obs"></textarea>
+    </section>
+    <button>Enviar formulario</button>
+  </section>
 </body>
 
 </html>
